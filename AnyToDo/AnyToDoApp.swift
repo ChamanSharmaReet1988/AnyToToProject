@@ -25,7 +25,7 @@ struct AnyToDoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
         .modelContainer(sharedModelContainer)
     }
